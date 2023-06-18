@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.basicCard {
+    border: 0.5px solid rgb(205, 205, 205);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.heading {
+    background-color: #16a085;
+    border: 0.5px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.heading_standardCard{
+    background-color: #eb2f06;
+    border: 0.5px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.contentList{
+    margin-left: 0px;
+}
+
+#li_basicCard{
+    margin-top: 15px;
+}
+
+#li_standardCard{
+    margin-top: 15px;
+}
+
+#li_premiumCard{
+    margin-top: 15px;
+}
+
+i {
+    color: #16a085;
+}
+
+#colorRed{
+    color: #eb2f06;
+}
+
+.price{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #16a085;
+    border-radius: 5px;
+    border: 0.5px solid rgb(205, 205, 205);
+}
+
+.standardCard {
+    border: 0.5px solid rgb(205, 205, 205);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.premiumCard {
+    border: 0.5px solid rgb(205, 205, 205);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 20px;
+}
